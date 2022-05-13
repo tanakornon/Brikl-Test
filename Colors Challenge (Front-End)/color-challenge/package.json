@@ -1,0 +1,19 @@
+{
+  "name": "colors-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start-web\" \"npm run start-api\"",
+    "setup": "concurrently \"npm run install-web\" \"npm run install-api\"",
+    "install-web": "cd ./frontend && npm install",
+    "install-api": "cd ./backend && npm install",
+    "start-web": "cd ./frontend && npm run start",
+    "start-api": "cd ./backend && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}

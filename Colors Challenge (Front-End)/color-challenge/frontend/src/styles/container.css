@@ -1,0 +1,17 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-swatch-box {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.color-space-box {
+  flex-grow: 1 1 0;
+}

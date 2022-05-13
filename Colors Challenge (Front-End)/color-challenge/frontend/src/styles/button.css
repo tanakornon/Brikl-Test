@@ -1,0 +1,11 @@
+.fetch-button {
+  border-color: gray;
+  padding: 40px 75px 40px 75px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.fetch-button:hover {
+  background-color: gray;
+  color: gainsboro;
+}
